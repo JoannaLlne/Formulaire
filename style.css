@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900');
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100vh;
   margin: -20px 0 50px;
 }
@@ -42,10 +42,11 @@ a {
   text-decoration: none;
   margin: 15px 0;
 }
+
 button {
   border-radius: 20px;
   border: 1px solid #fff;
-  background-color: ##87a96b;
+  background-color: #154c79;
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;
@@ -53,9 +54,10 @@ button {
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
+  cursor: pointer;
 }
 
-button:active {
+button:hover {
   transform: scale(0.95);
 }
 
@@ -63,7 +65,7 @@ button:focus {
   outline: none;
 }
 
-button.ghost {
+.btnSign {
   background-color: transparent;
   border-color: #ffffff;
 }
@@ -112,6 +114,7 @@ input {
   width: 50%;
   z-index: 2;
 }
+
 .container.right-panel-active .sign-in-container {
   transform: translateX(100%);
 }
@@ -143,6 +146,7 @@ input {
     z-index: 5;
   }
 }
+
 .overlay-container {
   position: absolute;
   top: 0;
@@ -159,7 +163,7 @@ input {
 }
 
 .overlay {
-  background: #87a96b;
+  background: #154c79;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
@@ -212,7 +216,7 @@ input {
   margin: 20px 0;
 }
 
-.social-container a {
+.social {
   border: 1px solid #dddddd;
   border-radius: 50%;
   display: inline-flex;
@@ -221,4 +225,8 @@ input {
   margin: 0 5px;
   height: 40px;
   width: 40px;
+}
+
+.social:hover {
+  transform: scale(1.1);
 }
