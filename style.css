@@ -230,3 +230,14 @@ input {
 .social:hover {
   transform: scale(1.1);
 }
+
+#password {
+  position: relative;
+  z-index: 0;
+}
+
+#showPassword {
+  position: absolute;
+  top: 59%;
+  right: 65px;
+}
