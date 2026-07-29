@@ -55,7 +55,6 @@ button {
   font-size: 12px;
   font-weight: bold;
   padding: 15px 45px;
-  margin-top: 5px;
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: transform 80ms ease-in;
@@ -243,7 +242,7 @@ input {
 
 .btnShow {
   position: absolute;
-  top: 59%;
+  top: 58%;
   right: 65px;
 }
 
