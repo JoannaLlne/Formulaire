@@ -16,8 +16,9 @@ body {
 
 .login {
   background: rgba(166, 158, 174, 0.408);
+  border: 1px solid #ffffff5b;
   backdrop-filter: blur(38px);
-  box-shadow: 0 40px 30px rgb(0 0 0 / 10%);
+  box-shadow: 8px 40px 30px black;
   border-radius: 40px;
   padding: 72px 32px 58px;
   width: 380px;
